@@ -81,24 +81,3 @@ if __name__ == "__main__":
 # Generate a counter that everytime the user get an answer wrong it will subtract from the 10. Display score at end
 # if User get answer wrong display EEE. If user get three consecutive EEE end game. If not reset EEE.
 
-
-# :) professor.py exists
-# :) Little Professor rejects level of 0
-# :) Little Professor rejects level of 4
-# :) Little Professor rejects level of "one"
-# :( Little Professor accepts valid level
-#     timed out while waiting for program to exit
-# :| At Level 1, Little Professor generates addition problems using 0–9
-#     can't check until a frown turns upside down
-# :| At Level 2, Little Professor generates addition problems using 10–99
-#     can't check until a frown turns upside down
-# :| At Level 3, Little Professor generates addition problems using 100–999
-#     can't check until a frown turns upside down
-# :| Little Professor generates 10 problems before exiting
-#     can't check until a frown turns upside down
-# :| Little Professor displays number of problems correct
-#     can't check until a frown turns upside down
-# :| Little Professor displays EEE when answer is incorrect
-#     can't check until a frown turns upside down
-# :| Little Professor shows solution after 3 incorrect attempts
-#     can't check until a frown turns upside down
