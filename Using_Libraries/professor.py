@@ -6,6 +6,7 @@ def main():
     get_level()
 
 
+
 def get_level():
 
     while True:
@@ -46,6 +47,7 @@ def user_addition(level):
     wrong_addition = 1
     while still_adding:
         print(total_question)
+        print(count_right_answers)
         if total_question <= 0:
             print("Score:", count_right_answers)
             exit(0)
@@ -67,10 +69,11 @@ def user_addition(level):
                     still_adding = True
                 else:
                     print("Score:", count_right_answers)
-                    break
+                    exit(0)
 
         except ValueError:
             still_adding = True
+    return count_right_answers
 
 
 if __name__ == "__main__":
@@ -80,4 +83,3 @@ if __name__ == "__main__":
 # Randomley generate ten problems. Maybe create a counter.
 # Generate a counter that everytime the user get an answer wrong it will subtract from the 10. Display score at end
 # if User get answer wrong display EEE. If user get three consecutive EEE end game. If not reset EEE.
-
