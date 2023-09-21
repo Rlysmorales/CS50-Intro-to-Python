@@ -6,7 +6,6 @@ def fuel_int():
             get_decimal = int(numerator_number) / int(denominator_number)
             get_percent = round(get_decimal * 100)
 
-
             if 99 <= get_percent <= 100:
                 print("F")
                 fuel_true = False
@@ -22,5 +21,6 @@ def fuel_int():
             ...
         except ValueError:
             ...
+
 
 fuel_int()
